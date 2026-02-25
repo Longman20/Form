@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="whole-form">
+     <div class="left-section">
+        <div class="logo">
+            <img src="./odin-lined.png" />
+            <h1>ODIN</h1>
+        </div>
+        <h6>Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a href="https://unsplash.com/" target="_blank">Upslash</a></h6>
+    </div>
+    <div class="side1">
+     <div class="heading">
+        <h3>welcome to the website of your dreams,this is your one stop site for everything you need <br>Sign up now!!</h3>
+     </div>
+
+     <div class="formClass">
+        <form action="" class="">
+            <div class="formbody">
+            <h2> Lets do this!!</h2>
+            <section class="form-flex">
+                <div class="form-group">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="firstname" required placeholder="john">
+                </div>
+                <div class="form-group">
+                <label for="secondname">SECOND NAME</label>
+                <input type="text" id="secondname" name="secondname"required placeholder="doe">
+                </div><br>
+
+               <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="EMAIL" required placeholder="form@gmail.com">
+                </div>
+
+                <div class="form-group">
+                <label for="number">PHONE NUMBER</label>
+                <input type="tel" id="number" name="phone" required  pattern="^0\d{10}$" placeholder="080XXXXXXXXX">
+                </div><br>
+
+                <div class="form-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="PASSWORD" required  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+ placeholder="Password">
+                </div>
+            
+                <div class="form-group">
+                <label for="confirmpassword">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmpassword" name="CONFIRMPASSWORD" required placeholder="confirmpassword">
+                </div>
+            </section>
+            </div>
+            <div class="formbutton">
+            <section class="buttonsection">
+           <button>Create Account</button>
+           <h5>Already have an account?<a href="form.html">Log in</a></h5>
+           </section>
+           </div>
+        </form>
+    </div>
+    </div>
+   </div>
+</body>
+</html>
