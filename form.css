@@ -11,12 +11,12 @@
   
 }
 .formClass{
-  flex: 2;                  /* takes 2/3 of space */
+  flex: 2;                  
   display: flex;
-  align-items: center;       /* vertical centering */
-  justify-content: center;   /* horizontal centering */
-  padding: ;             /* space around form */
-  box-sizing: border-box;    /* padding doesn’t break layout */
+  align-items: center;       
+  justify-content: center;   
+  padding: ;             
+  box-sizing: border-box;    
 }
 
 .form-flex{
@@ -81,9 +81,9 @@
 input{
   width: 17rem;
   border-radius: 0.3rem;
-  border: 0.1rem solid ;   /* thin border */
-  border-radius: 5px;       /* optional rounded corners */
-  outline:none             /* space inside the input */
+  border: 0.1rem solid ;   
+  border-radius: 5px;       
+  outline:none             
 }
 button{
   background-color:#596D48;
